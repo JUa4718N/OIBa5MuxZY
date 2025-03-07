@@ -47,7 +47,6 @@ if prediction == "Alice Arriving":
 # If Nothing is Detected or Other Car, run it against Sighthound's AI 
 if prediction == "Nothing" or prediction == "Other Car":
  vehicle_detected_return = sighthound(local_image_path)
- if vehicle_detected_return is not None:
   #pushbullet(vehicle_detected_return, token, local_image_path)
   print(vehicle_detected_return)
   # Optionally below, is how I have formatted the script to pass an argument to WebCoRE so it can read it aloud on my Google Cast Devices with cast-web
