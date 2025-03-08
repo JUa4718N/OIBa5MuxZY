@@ -16,7 +16,6 @@ from sighthound import sighthound
 from automl import visionclassification
 
 # For BlueIris I have to run this from the %/Users/Username directory for some reason to execute correctly
-# Create a blank file called data.pickle and prediction.pickle (for Sighthound and AutoML respectively), I'm too dumb to figure out how to create the file via Python
 avoid_duplicate = "True" # Conditional Argument For AutoML Function to Avoid Giving the same result twice (for example, a parked car in the driveway)
 token = "o.xxxxxxxxxxxxxxxxxxxx" # Pushbullet Token
 recipient = "" # Pushbullet Device Identifier. Not used currently, so instead it sends it to all devices with Pushbullet installed
