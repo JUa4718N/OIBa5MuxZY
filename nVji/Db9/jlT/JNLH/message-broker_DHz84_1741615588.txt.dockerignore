@@ -3,7 +3,6 @@
 
 .git
 .github
-build
 docker
 metrics
 scripts
