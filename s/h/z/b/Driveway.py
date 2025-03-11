@@ -19,7 +19,6 @@ from automl import visionclassification
 avoid_duplicate = "True" # Conditional Argument For AutoML Function to Avoid Giving the same result twice (for example, a parked car in the driveway)
 token = "o.xxxxxxxxxxxxxxxxxxxx" # Pushbullet Token
 recipient = "" # Pushbullet Device Identifier. Not used currently, so instead it sends it to all devices with Pushbullet installed
-
 project_id = 'project_id' # AutoML Project_id
 model_id = 'model_id' # AutoML model_id
 min_confidence_score = 0.71 # Cut off for confidence score to be considered relevant
