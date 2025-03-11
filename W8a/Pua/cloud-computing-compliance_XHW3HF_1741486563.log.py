@@ -38,7 +38,6 @@ for control in controls:
                 "id": id,
                 "text": text,
             }
-        ]
     })
     try:
         conn = httplib.HTTPSConnection('westus.api.cognitive.microsoft.com')
