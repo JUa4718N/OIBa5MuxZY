@@ -42,7 +42,6 @@ if prediction == "Alice Arriving":
  #contents = urllib.request.urlopen("http://url.com").read()
  #pushbullet(prediction, token, local_image_path)
 
-# If Nothing is Detected or Other Car, run it against Sighthound's AI 
 if prediction == "Nothing" or prediction == "Other Car":
  vehicle_detected_return = sighthound(local_image_path)
   #pushbullet(vehicle_detected_return, token, local_image_path)
