@@ -67,7 +67,6 @@ def read_json_as_pd_df(json_data, json_data_path='', orient_def='records'):
   
     
 #---------------------------- REQUESTING BASIC DATA ---------------------------
-
 base_url = 'https://v2.api-football.com/'
 
 
