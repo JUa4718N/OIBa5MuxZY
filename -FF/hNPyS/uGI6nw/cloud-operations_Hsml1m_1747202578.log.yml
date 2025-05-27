@@ -296,7 +296,6 @@ issues:
   # Set to 0 to disable.
   # Default: 3
   max-same-issues: 50
-
   exclude-rules:
     - source: "^//\\s*go:generate\\s"
       linters: [ lll ]
