@@ -26,7 +26,6 @@ kinds:
     format: '### 🔥 Breaking Changes'
   - label: Added
   - label: Changed
-  - label: Deprecated
   - label: Removed
   - label: Fixed
   - label: Experimental
