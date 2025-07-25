@@ -231,7 +231,6 @@ indent_size = 2
 
 # Xml build files
 [*.builds]
-indent_size = 2
 
 # Xml files
 [*.{xml,stylecop,resx,ruleset}]
